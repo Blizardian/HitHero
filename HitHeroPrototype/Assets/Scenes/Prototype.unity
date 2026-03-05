@@ -561,6 +561,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100114, guid: 5c1b4e21ca0489847a9faa7c027ac564, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1528102678}
+    - targetCorrespondingSourceObject: {fileID: 100114, guid: 5c1b4e21ca0489847a9faa7c027ac564, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1528102680}
     - targetCorrespondingSourceObject: {fileID: 100032, guid: 5c1b4e21ca0489847a9faa7c027ac564, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1553400385}
@@ -805,7 +808,7 @@ Transform:
   m_GameObject: {fileID: 1091998649}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.86, y: 4.91, z: 3.3263}
+  m_LocalPosition: {x: -1.19, y: 4.91, z: 3.3263}
   m_LocalScale: {x: 1, y: 10, z: 66.62008}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1205,6 +1208,33 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1.8, z: 0.50002766}
   m_Center: {x: 0, y: 1.1954409, z: -0.0004878044}
+--- !u!54 &1528102680
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093397405}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 6
+  m_CollisionDetection: 0
 --- !u!1 &1529274231
 GameObject:
   m_ObjectHideFlags: 0

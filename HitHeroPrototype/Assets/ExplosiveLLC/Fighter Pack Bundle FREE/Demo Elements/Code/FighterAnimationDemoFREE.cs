@@ -39,7 +39,7 @@ public class FighterAnimationDemoFREE : MonoBehaviour {
 		{
 			Debug.Log("Walking Forward");
 			animator.SetBool("Walk Forward", true);
-		}
+        }
 		else
 		{
 			animator.SetBool("Walk Forward", false);
